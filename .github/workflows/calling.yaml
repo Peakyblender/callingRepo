@@ -1,0 +1,9 @@
+name: My calling workflow
+
+on:
+  workflow_dispatch:
+
+jobs:
+
+  call-workflow-in-another-repo:
+    uses: swk-enterprise-cloud-testing/calledRepo/.github/workflows/called.yaml@main
