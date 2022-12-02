@@ -6,4 +6,4 @@ on:
 jobs:
 
   call-workflow-using-branch:
-    uses: /swk-enterprise-cloud-testing/calledRepo/.github/workflows/called.yaml@main
+    uses: swk-enterprise-cloud-testing/calledRepo/.github/workflows/called.yaml@main
